@@ -14,10 +14,11 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.2.0</app.runtime>
-		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.3.2</mule.maven.plugin.version>
 	</properties>
 <build>
 		<plugins>
+		
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
   <artifactId>mule-maven-plugin</artifactId>
@@ -31,9 +32,11 @@
       <targetType>server</targetType>
       <username>mani21</username>
       <password>Maninene@21</password>
-     <environment>sandbox</environment>
+     <businessGroup>master\lti</businessGroup>
+     <serverName>server1</serverName>
+     <applicationName>jenkins-pocs</applicationName>
       <properties>
-        <key>cicdonpremi</key>
+        <key>cicdonpremesis</key>
       </properties>
     </armDeployment>
 				</configuration>
